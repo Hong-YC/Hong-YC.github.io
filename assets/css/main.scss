@@ -7,3 +7,19 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+html {
+    font-size: 10px; // change to whatever
+  
+    @include breakpoint($medium) {
+      font-size: 11px; // change to whatever
+    }
+  
+    @include breakpoint($large) {
+      font-size: 14px; // change to whatever
+    }
+  
+    @include breakpoint($x-large) {
+      font-size: 17px; // change to whatever
+    }
+  } 
