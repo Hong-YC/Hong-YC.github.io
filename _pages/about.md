@@ -9,5 +9,5 @@ Hi there! Welcome to my personal homepage. I'm a Final Year Undergraduate Studen
 
 I have been working on research project under the supervision of [Professor Shueng-Han Gary Chan](https://www.cse.ust.hk/~gchan/) about video and image super-resolution ([my post]())
 
-Currently, I am working on my Final Year Project about software testing under the supervision of [Professor Shing-Chi Cheung](https://www.cse.ust.hk/~scc/) in HKUST.
+Currently, I am working on my Final Year Project about testing deeplearning libraries under the supervision of [Professor Shing-Chi Cheung](https://www.cse.ust.hk/~scc/) in HKUST.
 
