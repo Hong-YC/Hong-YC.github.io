@@ -63,7 +63,7 @@ GLEAN [2] also utilizes pre-trained StyleGAN [5] for the upscaling task. The dif
 </p>
 ---
 
-In this blog post, I briefly discuss the problem setting for image super-resolution and two SOTA GAN-based models for the problem and their limitation. In my next post, I will go discuss the use of super-resolution on video. 
+In this blog post, I briefly discuss the problem setting for image super-resolution and two SOTA GAN-based models for the problem and their limitation. In my next [post](https://hong-yc.github.io/blogs/VideoSuperRes), I will go discuss the use of super-resolution on video. 
 
 
 ## Reference
