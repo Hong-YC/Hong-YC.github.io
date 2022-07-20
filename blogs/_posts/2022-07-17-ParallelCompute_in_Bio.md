@@ -8,6 +8,10 @@ tags:
 ---
 By Hong
 
+<p align="center">
+<img src="../../assets/image/parallel_Bio/bioinfo.jpg" alt="bioinfo" width="400" class="center"/>
+</p>
+
 The recent advance in DNA sequencing techniques allows scientists to obtain the secret code behind every living creature, which gives us the superpower to understand the constitution of life. Yet, the DNA sequences often contain a huge amount of information, which is very computation-intensive and time-consuming to analyze. Fortunately, with the help of parallel computing, these processes can be speedup significantly. In this blog post, I would like to examine the use of parallel computing in the field of bioinformatics. To be more specific, I will elaborate on how parallel computing allows scientists to find the statistical association between genetic variants and measured phenotypes. I will start with a brief introduction to the purpose of analyzing genetic data. Next, the computational challenge will be presented. Then, parallelism techniques making the problem tractable will be discussed. Last, I will introduce the computing system used to solve the problem and analyze its performance.  
 
 Humans share 99.9% of their genetic makeup, meaning only 0.1% of our entire DNA is responsible for the diversity we see between individuals. A specific variance on the same location across human DNA is called a single nucleotide polymorphism (SNP). SNPs are keys in understanding the genetic causing for human phenotypes, the set of traits or observable characteristics, including genetic diseases. Thus, by performing association analyses of human genetic data, scientists can discover the genetic roots of certain diseases. Methods such as GWAS and PheWAS can give us a matrix of significant associations between variants and phenotypes, where rows correspond to SNPs and columns are phenotypes. The entry in a SNP vectors represents the significance of association between that SNP and the corresponding phenotype. 
